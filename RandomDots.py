@@ -18,5 +18,4 @@ while keep_going:
     rad=random.randint(10,100)
     pygame.draw.circle(screen,(r,g,b),(posx,posy),rad)
     pygame.display.update()
-print(count)    
 pygame.quit()    
